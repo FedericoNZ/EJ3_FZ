@@ -16,7 +16,7 @@ for (int i = 0; i < valor.Length; i++)
     suma += valor[i]; 
 }
 
-int max = 0;
+int max = Int32.MinValue;
 
 for (int i = 0; i < valor.Length; i++)
 {
